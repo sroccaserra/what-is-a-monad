@@ -1,3 +1,5 @@
+Mes notes sur une explication de [Christophe Thibaut](https://twitter.com/tof_).
+
 "L'objectif de ce kata n'est pas de terminer, d'écrire un programme. Le but est
 d'illustrer un concept et de répondre à toutes les questions".
 
@@ -16,7 +18,7 @@ Exemple de problème : `getLine` renvoie une IO String, je ne peux pas l'utilise
 Attention, ça casse le prélude. `unsafeDupablePerformIO` peut résoudre le problème mais on ne peut pas entrer là dedans.
 
     > :type (++"!!!")
-    (+++"!!!") :: [Char] -> [Char]
+    (++"!!!") :: [Char] -> [Char]
 
     > (++"!!!") "hello"
     "hello!!!"
